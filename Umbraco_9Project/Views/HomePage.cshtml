@@ -1,0 +1,35 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco_9Project.ModelBuilder.ModelsBuilder.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent;
+@using Umbraco_9Project.ModelBuilder.ModelsBuilder
+@{
+	Layout = "Master.cshtml";
+	
+	
+ }
+ <html>
+	<div class="container">
+		<img class="homepage-photo"  src="@Model.SlidePhoto.Url()" alt="flower-image" />
+	</div>
+	 
+	<body>
+	    <div class="row section">
+			<div class="col-md-12">@Model.BodyText</div>				
+		</div>
+		<div class="container">
+		    <div class="row">
+		        <div class="col">
+		       @* @await Html.PartialAsync("Product-Post")*@
+		        </div>
+		    </div>
+		    
+		</div>
+<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	</body>
+</html>
+
+

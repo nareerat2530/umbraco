@@ -1,0 +1,105 @@
+
+*, *::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Bittter, sans-serif;
+    background: #FFC0CB;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50rem;
+    justify-content: center;
+    margin: 0rem;
+}
+
+.card {
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 0.5rem;
+    min-width: 20rem;
+    display: flex;
+    background-color: gray;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ .card-image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    
+}
+
+.card-body {
+    margin: 2rem;
+    flex-grow: 1;
+}
+.card-title {
+    line-height: 1.4rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    color:white;
+   
+}
+
+.card-description {
+    line-height: 1.2rem;
+    color:white;
+   
+}
+
+.card-price {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    color:azure
+}
+.product-title {
+    color: red;
+    font-size:2rem;
+    font-weight: bold;
+}
+.product-details{
+    color:white;
+}
+
+.h1-splash-color h1 {
+    margin: 0; 
+}
+.a-splash-color a{
+    margin:0;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        margin-top: 20rem;
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));
+    }
+
+    .card  {
+        flex-direction: column;
+        text-align: center;
+        min-width: 18rem;
+        min-height: 16rem;
+    }
+
+   /* .img {
+        width: 100%;
+        height: 16rem;
+    }*/
+  
+ 
+}
+

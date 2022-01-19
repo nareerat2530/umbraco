@@ -1,0 +1,34 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco_9Project.ModelBuilder.ModelsBuilder.Products>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco_9Project.ModelBuilder.ModelsBuilder
+
+
+@{
+	Layout = "Master.cshtml";
+}
+
+<div class="container ">
+	<div class="row">
+		<div class="col">
+			<div class="card-deck">
+
+				 @foreach (Product product in Model.Children)
+				{
+					<div class="card">
+			<a href="@product.Url()">
+	           <img class="card-image-top" src="@($"{product.Photo.Url()}?width=320&height=200")" alt="product.ProductName">
+		          <div class="card-body">
+			            <h5 class="card-title">@product.ProductName</h5>
+			            <p class="card-description">@product.Description</p>
+	            	</div>	
+	    	</a>
+		</div>
+				}
+
+			@*@await Html.PartialAsync("Product-Post")*@
+			</div>
+		</div>
+	</div>
+</div>
+

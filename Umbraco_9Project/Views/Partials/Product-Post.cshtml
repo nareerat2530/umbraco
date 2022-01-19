@@ -1,0 +1,26 @@
+﻿@*@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+	var products = Umbraco.Content(Guid.Parse("6f8cc44e-3264-461f-8fb3-6036cfc81c60"))
+    .ChildrenOfType("product")
+    .Where(x => x.IsVisible())
+    .OrderByDescending(x => x.CreateDate);
+}
+	
+
+
+	@foreach (var product in products)
+	{
+		<div class="card">
+			<a href="@product.Url()">
+	            <img class="card-image-top" src="@($"{product.Url('@product.Photos?.Url()')}?width=320&height=200")" alt="product.ProductName">
+		          <div class="card-body">
+			            <h5 class="card-title">product.ProductName</h5>
+			            <p class="card-description">product.Description</p>
+	            	</div>	
+	    	</a>
+		</div>
+	}*@
+
+
+

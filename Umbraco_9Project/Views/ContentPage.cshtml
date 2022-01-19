@@ -1,0 +1,18 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.ContentPage>
+@using ContentModels = Umbraco_9Project.ModelBuilder.ModelsBuilder;
+@{
+	Layout = "master.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+           <h1>@Model.Name</h1>
+            @if(Model.HasValue("pageContent")){
+                @Model.Value("pageContent")
+} 
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,25 @@
+﻿@*@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Product>
+@using Umbraco.Cms.Web.Common.PublishedModels;
+
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent;
+@using Umbraco_9Project.ModelBuilder.ModelsBuilder
+
+	
+		
+<div class="card">
+	<img class="card-image-top" src="@($"{Model.Photo?.Url() }?width=320&height=200")" alt="Model.ProductName">
+		<div class="card-body">
+			<h5 class="card-title">Model.ProductName</h5>
+			<p class="card-description">Model.Description</p>
+		</div>	
+			
+		
+	<div class="card-footer d-flex justify-content-between">
+	<div  class="product-details"><a href="Model.Url()">Details</a>
+		</div>
+	</div>
+</div>
+					
+*@
+	

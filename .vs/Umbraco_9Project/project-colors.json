@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0bbddc1c-112e-4da9-88dc-9b85dd5c7e4c": {
+      "ProjectGuid": "0bbddc1c-112e-4da9-88dc-9b85dd5c7e4c",
+      "DisplayName": "Umbraco_9Project",
+      "ColorIndex": 0
+    },
+    "62e1e74e-cdd8-4aab-bd5e-9e991472835e": {
+      "ProjectGuid": "62e1e74e-cdd8-4aab-bd5e-9e991472835e",
+      "DisplayName": "Umbraco_9Project.ModelBuilder",
+      "ColorIndex": 1
+    },
+    "897ebfcd-ef33-4b57-8aa5-1a53c0c0f83c": {
+      "ProjectGuid": "897ebfcd-ef33-4b57-8aa5-1a53c0c0f83c",
+      "DisplayName": "Umbraco_9Project.ModelBuilder",
+      "ColorIndex": 2
+    },
+    "46603e32-c3c1-48cb-a403-0c90ba35a6b9": {
+      "ProjectGuid": "46603e32-c3c1-48cb-a403-0c90ba35a6b9",
+      "DisplayName": "Umbraco_9Project.Core",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
