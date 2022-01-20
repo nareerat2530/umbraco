@@ -10,21 +10,14 @@
  }
  <html>
 	<div class="container">
-		<img class="homepage-photo"  src="@Model.SlidePhoto.Url()" alt="flower-image" />
+		<img class="homepage-photo"  src="@Model.SlidePhoto?.Url()" alt="flower-image" />
 	</div>
 	 
 	<body>
 	    <div class="row section">
 			<div class="col-md-12">@Model.BodyText</div>				
-		</div>
-		<div class="container">
-		    <div class="row">
-		        <div class="col">
-		       @* @await Html.PartialAsync("Product-Post")*@
-		        </div>
-		    </div>
-		    
-		</div>
+		</div>@await Html.PartialAsync("Product-Post")
+
 <!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -33,3 +26,6 @@
 </html>
 
 
+
+
+	

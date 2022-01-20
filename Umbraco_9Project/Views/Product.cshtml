@@ -5,20 +5,10 @@
 	Layout = "Master.cshtml";
 }
 
-	<div class="container">
-	    <div class="row">
-            <div class="col">
-                <img  src="@($"{Model.Photo?.Url() }?width=400")" alt="Card image cap">
-              </div>
-              <div class="col">
-                   <h1 class="product-title">@Model.ProductName</h1>
-                    <p class="card-description">@Model.Description</p>
-                  
-                    <p class="card-price">Price @Model.Price</p>
-                    <a href="#" class="btn btn-primary">Buy</a>
-              </div>
-       </div>
-    </div>
+	@await Html.PartialAsync("ProductCard")
+			
+
+	
 
 
 
