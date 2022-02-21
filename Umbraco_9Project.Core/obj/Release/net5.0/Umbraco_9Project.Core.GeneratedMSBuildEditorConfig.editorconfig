@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Umbraco_9Project.ModelBuilder
-build_property.ProjectDir = C:\Users\naree\source\repos\umbraco\Umbraco_9Project.ModelBuilder\
+build_property.RootNamespace = Umbraco_9Project.Core
+build_property.ProjectDir = C:\Users\naree\Source\Repos\umbraco\Umbraco_9Project.Core\

@@ -11272,11 +11272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj",
+      "projectUniqueName": "C:\\Users\\naree\\Source\\Repos\\umbraco\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj",
       "projectName": "Umbraco_9Project.ModelBuilder",
-      "projectPath": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj",
+      "projectPath": "C:\\Users\\naree\\Source\\Repos\\umbraco\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj",
       "packagesPath": "C:\\Users\\naree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.ModelBuilder\\obj\\",
+      "outputPath": "C:\\Users\\naree\\Source\\Repos\\umbraco\\Umbraco_9Project.ModelBuilder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

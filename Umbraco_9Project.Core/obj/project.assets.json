@@ -2628,6 +2628,21 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Umbraco_9Project.ModelBuilder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Bergmania.OpenStreetMap": "3.3.1",
+          "Umbraco.Cms": "9.2.0",
+          "Umbraco.Cms.Core": "9.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Umbraco_9Project.ModelBuilder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Umbraco_9Project.ModelBuilder.dll": {}
+        }
       }
     }
   },
@@ -11256,13 +11271,19 @@
         "umbraco.cms.web.website.9.2.0.nupkg.sha512",
         "umbraco.cms.web.website.nuspec"
       ]
+    },
+    "Umbraco_9Project.ModelBuilder/1.0.0": {
+      "type": "project",
+      "path": "../Umbraco_9Project.ModelBuilder/Umbraco_9Project.ModelBuilder.csproj",
+      "msbuildProject": "../Umbraco_9Project.ModelBuilder/Umbraco_9Project.ModelBuilder.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Bergmania.OpenStreetMap >= 3.3.1",
       "Umbraco.Cms >= 9.2.0",
-      "Umbraco.Cms.Core >= 9.2.0"
+      "Umbraco.Cms.Core >= 9.2.0",
+      "Umbraco_9Project.ModelBuilder >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11272,11 +11293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
+      "projectUniqueName": "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
       "projectName": "Umbraco_9Project.Core",
-      "projectPath": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
+      "projectPath": "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
       "packagesPath": "C:\\Users\\naree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.Core\\obj\\",
+      "outputPath": "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11296,7 +11317,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj": {
+              "projectPath": "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.ModelBuilder\\Umbraco_9Project.ModelBuilder.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

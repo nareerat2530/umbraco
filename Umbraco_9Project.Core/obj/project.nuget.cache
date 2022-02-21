@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MiVLPYXOrXL6jkjJAqLf+Jkctq6UQCsU1rfJXOtnUIoVqpGcpZmfIfnPeQMIJ305oL6wCFZH+JZbfVNIlGXwrg==",
+  "dgSpecHash": "ZvMWJxWT8UpDYiTaaiofe3oUqS7SHefkZLH0+4JV8FgkbBHyOlo8S0ABZy4o7SrDAIZdFBPEGKcJzY1/jkq1lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\naree\\source\\repos\\Umbraco_9Project\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
+  "projectFilePath": "C:\\Users\\naree\\source\\repos\\umbraco\\Umbraco_9Project.Core\\Umbraco_9Project.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naree\\.nuget\\packages\\bergmania.openstreetmap\\3.3.1\\bergmania.openstreetmap.3.3.1.nupkg.sha512",
     "C:\\Users\\naree\\.nuget\\packages\\bergmania.openstreetmap.core\\3.3.1\\bergmania.openstreetmap.core.3.3.1.nupkg.sha512",

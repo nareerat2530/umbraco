@@ -10,4 +10,8 @@
     <PackageReference Include="Umbraco.Cms.Core" Version="9.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Umbraco_9Project.ModelBuilder\Umbraco_9Project.ModelBuilder.csproj" />
+  </ItemGroup>
+
 </Project>
